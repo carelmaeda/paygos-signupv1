@@ -1,0 +1,13 @@
+body{
+  background: #a2a2a2;
+}
+
+.header{
+  background: url(https://paygos.ca/wp-content/themes/paygos2024/images/top-hero-bg.png);
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.logo {
+  max-width: 150px;
+}/*# sourceMappingURL=styles.css.map */
