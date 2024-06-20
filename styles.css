@@ -1,13 +1,68 @@
-body{
-  background: #a2a2a2;
+
+/*Typography*/
+
+.title, .subtitle{
+  font-family: "Montserrat", sans-serif;
 }
 
-.header{
-  background: url(https://paygos.ca/wp-content/themes/paygos2024/images/top-hero-bg.png);
-  background-size: cover;
-  border-radius: 8px;
+.title{
+font-size: 56px;
+text-align: center;
+font-style: normal;
+font-weight: 800;
+line-height: 90%; /* 165.6px */
+letter-spacing: -5px;
+text-transform: capitalize;
 }
+
+.subtitle{
+  font-size: 20px;
+  letter-spacing: -1px;
+  text-align: center;
+}
+
+.p{
+  text-align: center;
+}
+
+.form-check-label{
+  font-size: 14px;
+}
+
+.title, .subtitle, .p, .form-label, .form-check-label{
+  color: white !important;
+}
+
+/*----*/
 
 .logo {
-  max-width: 150px;
-}/*# sourceMappingURL=styles.css.map */
+  max-width: 250px;
+}
+
+.form-img{
+  object-fit: cover;
+}
+
+.wrapper{
+  max-width: 1200px;
+  border: solid 1px rgb(198, 255, 195);
+  background-color: #267079;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.btn-primary{
+  font-weight: 600 !important;
+  background: #43AB6C !important;
+  border: solid 2px #43AB6C !important;
+}
+
+.btn-primary:hover{
+  border: solid 2px white !important;
+}
+
+@media (max-width: 600px) {
+  .logo {
+    max-width: 200px;
+  }
+}
