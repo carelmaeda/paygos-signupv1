@@ -11,7 +11,7 @@ text-align: center;
 font-style: normal;
 font-weight: 800;
 line-height: 90%; /* 165.6px */
-letter-spacing: -5px;
+letter-spacing: -4px;
 text-transform: capitalize;
 }
 
@@ -45,7 +45,6 @@ text-transform: capitalize;
 
 .wrapper{
   max-width: 1200px;
-  border: solid 1px rgb(198, 255, 195);
   background-color: #267079;
   border-radius: 10px;
   overflow: hidden;
