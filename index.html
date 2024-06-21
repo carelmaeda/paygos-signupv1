@@ -2,8 +2,9 @@
 <html>
   <head>
     <title>Paygos | Signup Form</title>
-    <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
   </head>
   <body style="background: #43AB6C;">    
 
@@ -18,7 +19,7 @@
           <a href="http://www.paygos.ca"><img src="/img/paygosXL-white.png" class="logo my-2" alt="paygos logo"></a>
           <h1 class="title text-light">Sell More.<br> Spend Less.</h1>
           <h2 class="subtitle">Ignite Incremental Customer Growth</h2>
-          <p class="p">Paygos is a customizable sales acceleration platform designed to drive incremental revenue, automate manual processes and surface actionable sales data & analytics. <br> Paygos gives sales teams an unfair advantage.</p>
+          <p class="p d-none">Paygos is a customizable sales acceleration platform designed to drive incremental revenue, automate manual processes and surface actionable sales data & analytics. <br> Paygos gives sales teams an unfair advantage.</p>
         </div>
   
           <!--Name and Email-->
@@ -47,20 +48,29 @@
   
           <!--T & Cs-->
           <div class="row mt-4">
-              <p class="form-label my-1">What processes would you be interest in knowing more?</p>
-              <div class="d-grid gap-2">
+              <p class="form-label my-1">Which solution are you most interested in?</p>
+              <div class="d-flex justify-content-between flex-wrap gap-3  ">
                 <div class="form-group">
-                  <input class="form-check-input" type="checkbox" name="salesacc" id="salesacc"/>
-                  <label class="form-check-label" for="salesacc">Sales Acceleration</label>
-              </div> 
-              <div class="form-group">
-                <input class="form-check-input" type="checkbox" name="rebates" id="rebates"/>
-                <label class="form-check-label" for="rebates">Rebates Management</label>
+                  <input class="form-check-input" type="checkbox" name="all" id="all"/>
+                  <label class="form-check-label" for="all">All</label>
               </div> 
               <div class="form-group">
                 <input class="form-check-input" type="checkbox" name="order" id="order"/>
                 <label class="form-check-label" for="order">Optimized Ordering</label>
-            </div> 
+              </div> 
+              <div class="form-group">
+                <input class="form-check-input" type="checkbox" name="returns" id="returns"/>
+                <label class="form-check-label" for="returns">Returns</label>
+              </div> 
+              <div class="form-group">
+                <input class="form-check-input" type="checkbox" name="rebate" id="rebate"/>
+                <label class="form-check-label" for="rebate">Rebate Management</label>
+              </div> 
+              <div class="form-group">
+                <input class="form-check-input" type="checkbox" name="analytics" id="analytics"/>
+                <label class="form-check-label" for="analytics">Data & Analytics</label>
+              </div> 
+
               </div>
                     
           </div>

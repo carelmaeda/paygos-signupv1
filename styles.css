@@ -1,3 +1,11 @@
+:root{
+  --white: #f2f2f2;
+  --black: #1d1d1d;
+  --green-light: #00FF75;
+  --green-brand: #43AB6C;
+  --green-dark: #267079;
+}
+
 
 /*Typography*/
 
@@ -30,7 +38,7 @@ text-transform: capitalize;
 }
 
 .title, .subtitle, .p, .form-label, .form-check-label{
-  color: white !important;
+  color: var(--white);
 }
 
 /*----*/
@@ -51,13 +59,16 @@ text-transform: capitalize;
 }
 
 .btn-primary{
-  font-weight: 600 !important;
-  background: #43AB6C !important;
-  border: solid 2px #43AB6C !important;
+  font-weight: 700 ;
+  background: var(--green-light);
+  color: var(--black);
+  border: solid 2px var(--green-light);
 }
 
 .btn-primary:hover{
-  border: solid 2px white !important;
+  border: solid 2px var(--white);
+  color: var(--white);
+  background: var(--green-brand);
 }
 
 @media (max-width: 600px) {
